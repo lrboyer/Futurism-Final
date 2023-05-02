@@ -49,7 +49,6 @@ const ArtGenerator = () => {
                 <img
                     className="result-image m-3 max-w-full max-h-400 object-contain"
                     src={result}
-                    alt="Generated Image"
                 />
             )}
         </div>
