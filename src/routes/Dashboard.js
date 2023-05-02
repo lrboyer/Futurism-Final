@@ -31,6 +31,7 @@ function Dashboard() {
           </li>
           <li>
             Overall, the future of AI is exciting, and we can expect to see a lot of advancements in this field in the coming years.
+            yo wasup
           </li>
         </ul>
 
