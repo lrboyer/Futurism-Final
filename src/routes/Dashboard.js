@@ -39,7 +39,7 @@ function Dashboard() {
         <ArtGenerator />
       </div>
 
-      <div class="flex m-6 justify-center">
+      <div class="flex m-6  justify-center">
         <Youtube />
       </div>
 
