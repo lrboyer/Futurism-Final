@@ -23,7 +23,7 @@ const ArtGenerator = () => {
             setresult(res.data.data[0].url);
         } catch (error) {
             console.error(error);
-            window.alert("Error generating image (bad prompt or I ran out of free uses): " + error.message + " " + apiKey);
+            window.alert("Error generating image (bad prompt or I ran out of free uses): " + error.message);
         }
     };
 
