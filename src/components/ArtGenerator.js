@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Configuration, OpenAIApi } from "openai";
 
-const apiKey = "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"
+const apiKey = process.env.REACT_APP_API_KEY || process.env.apiKey
+console.log(apiKey);
 
 const ArtGenerator = () => {
 
