@@ -40,10 +40,10 @@ function Dashboard() {
       </div>
 
       <div class="flex m-6 justify-center">
-        <Youtube/>
+        <Youtube />
       </div>
-      
-      <Footer/>
+
+      <Footer />
 
     </div >
   );
