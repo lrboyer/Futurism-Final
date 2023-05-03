@@ -36,12 +36,13 @@ function Dashboard() {
         </ul>
 
       </div>
-      <div class="flex m-6 justify-center">
-        <ArtGenerator />
-      </div>
 
       <div class="flex m-6  justify-center">
         <Youtube />
+      </div>
+
+      <div class="flex m-6 justify-center">
+        <ArtGenerator />
       </div>
 
       <Footer />

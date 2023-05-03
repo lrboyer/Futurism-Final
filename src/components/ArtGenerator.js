@@ -18,14 +18,15 @@ const ArtGenerator = () => {
                 prompt: prompt,
                 n: 1,
                 size: "256x256",
+                response_format: "b64_json"
             }, {
                 headers: {
                     "Content-Type": "application/json",
                     "Authorization": `Bearer ${apiKey}`,
                 }
             });
-            setresult(res.data.data[0].url);
-            console.log(res.data.data[0].url)
+            setresult(res.data.data[0].b64_json);
+            console.log(res.data.data[0])
         } catch (error) {
             console.error(error);
             window.alert("Error generating image (bad prompt): " + error.message);
@@ -50,7 +51,13 @@ const ArtGenerator = () => {
                 </button>
             </div>
 
-            {result.length > 0 ? <img src={result || ""} alt='result' /> : "<> </>"}
+            {result && (
+                <img
+                    className="result-image m-3 max-w-full max-h-400 object-contain"
+                    src={`data:image/png;base64,${result}`}
+                    alt=""
+                />
+            )}
 
         </div>
     );
