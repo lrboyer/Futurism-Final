@@ -7,6 +7,21 @@ import Logic from './routes/Logic';
 import SuperToys from './routes/SuperToys';
 import LastQuestion from './routes/LastQuestion';
 import Rough from './routes/Rough';
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCy-o-ba-fgBUhXg6544wCPfI3RY_IYH9Y",
+  authDomain: "futurism-final.firebaseapp.com",
+  projectId: "futurism-final",
+  storageBucket: "futurism-final.appspot.com",
+  messagingSenderId: "496302258495",
+  appId: "1:496302258495:web:a393dd45f6b4155cb53b8a",
+  measurementId: "G-4B6HYTPXXJ"
+};
+
+// Initialize Firebase
+// eslint-disable-next-line
+const app = initializeApp(firebaseConfig);
 
 const router = createBrowserRouter([
   {
