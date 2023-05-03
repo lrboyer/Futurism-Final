@@ -25,6 +25,7 @@ const ArtGenerator = () => {
                 }
             });
             setresult(res.data.data[0].url);
+            console.log(res.data)
         } catch (error) {
             console.error(error);
             window.alert("Error generating image (bad prompt): " + error.message);
