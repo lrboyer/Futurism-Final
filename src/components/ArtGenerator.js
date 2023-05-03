@@ -25,7 +25,7 @@ const ArtGenerator = () => {
                 }
             });
             setresult(res.data.data[0].url);
-            console.log(res.data)
+            console.log(res.data.data[0].url)
         } catch (error) {
             console.error(error);
             window.alert("Error generating image (bad prompt): " + error.message);
@@ -50,13 +50,8 @@ const ArtGenerator = () => {
                 </button>
             </div>
 
-            {result && (
-                <img
-                    className="result-image m-3 max-w-full max-h-400 object-contain"
-                    src={result}
-                    alt=""
-                />
-            )}
+            {result.length > 0 ? <img src={result || ""} alt='result' /> : "<> </>"}
+
         </div>
     );
 };
