@@ -2,7 +2,7 @@ import ArtGenerator from '../components/ArtGenerator';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
 import Youtube from '../components/Youtube';
-import cat from '../images/cat.png'
+import cat1 from '../images/cat1.png'
 import cat2 from '../images/cat2.png'
 import cat3 from '../images/cat3.png'
 
@@ -10,16 +10,20 @@ function Dashboard() {
   return (
     <div class='bg-indigo-200 w-full min-h-screen'>
       <NavBar />
-      <div class='m-20 text-xl'>
+      <div class='m-20 text-xl flex flex-col items-center'>
+        <p className='text-3xl m-3'>
+          Our Future with AI
+        </p>
         <p>
           In the last few months, the world has seen an increasing concern for AI.
           New AI technology like ChatGPT and DALL-E has recently been revealed to the public and has brought about extensive societal changes.
           If AI is still only in its infancy, what will it be like in 30 years, 100 years?
+          I believe that AI will be a substantial part of our everyday lives going on into the future.
           The different webpages will explore some of the possible futures of AI envisioned by the literature we read in class.
         </p>
         <br />
 
-        <div class="flex m-6  justify-center">
+        <div class="flex m-6 justify-center">
           <Youtube />
         </div>
 
@@ -32,11 +36,11 @@ function Dashboard() {
           Our society becoming like Wall-E is a genuine possibility, as I think we would see ourselves becoming more mindless and letting AI do everything for us.
         </p>
 
-        <div class='flex flex-col justify-center items-center m-6'>
-          <div class='flex flex-row justify-center items-center w-1/5'>
+        <div class='flex flex-col justify-center items-center m-6 w-1/2 p-3 rounded-md bg-gray-700'>
+          <div class='flex flex-row justify-center items-center w-max'>
             <img
               className="m-3"
-              src={cat}
+              src={cat1}
               alt="cat1"
             />
             <img
@@ -50,10 +54,10 @@ function Dashboard() {
               alt="cat3"
             />
           </div>
-          <p class='text-sm'>
+          <p class='text-sm text-white'>
             Given the prompt: "Guitar playing cat wearing a sombrero on stage"
           </p>
-          <p class='text-sm'>
+          <p class='text-sm text-white'>
             It gave me these masterpieces
           </p>
         </div>
@@ -71,7 +75,7 @@ function Dashboard() {
 
       </div>
 
-      <div class="flex m-6 justify-center">
+      <div class="flex flex-col m-4 items-center justify-center">
         <ArtGenerator />
       </div>
 

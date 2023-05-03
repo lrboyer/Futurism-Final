@@ -5,7 +5,7 @@ const NavBar = () => {
     let navigate = useNavigate();
 
     return (
-        <div className='z-50 sticky top-0 w-full h-20 bg-white bg-opacity-60 backdrop-filter backdrop-blur-sm flex flex-row items-center justify-between px-6 md:px-16 text-black'>
+        <div className='z-50 sticky top-0 w-full h-20 bg-white bg-opacity-40 backdrop-filter backdrop-blur-sm flex flex-row items-center justify-between px-6 md:px-16 text-black'>
             <div className='flex items-center gap-2 cursor-pointer font-bold text-3xl md:text-5xl hover:-rotate-2 duration-150' onClick={() => navigate('/')}>
                 <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-800 to-sky-300 whitespace-nowrap'>Our Future</h1>
                 <img className='h-12 w-12' src={aiLogo} alt='' />

@@ -13,7 +13,7 @@ function Rough() {
                 <p>
                     Talks about the future of space travel and robots. Robots will take over the universe if they are capable of self replication.
                 </p>
-                <img className='h-1/4 w-1/4' src={rough} alt='' />
+                <img className='h-1/4 w-1/4 m-6' src={rough} alt='' />
             </div>
 
             <Footer />
