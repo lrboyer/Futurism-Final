@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Configuration, OpenAIApi } from "openai";
 
-const apiKey = process.env.REACT_APP_API_KEY || process.env.apiKey
+const apiKey = process.env.REACT_APP_API_KEY
 
 const ArtGenerator = () => {
 
@@ -18,6 +18,11 @@ const ArtGenerator = () => {
                 prompt: prompt,
                 n: 1,
                 size: "256x256",
+            }, {
+                headers: {
+                    "Content-Type": "application/json",
+                    "Authorization": `Bearer ${apiKey}`,
+                }
             });
             setresult(res.data.data[0].url);
         } catch (error) {
