@@ -17,12 +17,12 @@ const ArtGenerator = () => {
             const res = await openai.createImage({
                 prompt: prompt,
                 n: 1,
-                size: "1024x1024",
+                size: "256x256",
             });
             setresult(res.data.data[0].url);
         } catch (error) {
             console.error(error);
-            window.alert("Error generating image (bad prompt or I ran out of free uses): " + error.message);
+            window.alert("Error generating image (bad prompt): " + error.message);
         }
     };
 
