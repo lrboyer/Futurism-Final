@@ -11,10 +11,14 @@ function LastQuestion() {
                     Isaac Asimov, The Last Question
                 </p>
                 <p>
-                    1. Considering Asimov's "The Last Question," I don't think we rely too much on technology and science to solve our problems. In today's society, we use technology
-                    to answer basic questions, but our machines can only sometimes answer more complex questions. We seek out other humans or research them ourselves to find the answers.
-                    In the future, like in the reading, I see society relying on technology to answer and solve all of our problems. As machines get more advanced,
-                    it gets easier and easier to just ask a machine for an answer instead of trying to figure things out by yourself.
+                    "The Last Question" is a short story that explores the idea of entropy and the potential for humanity to transcend the limitations of the universe.
+                    The story follows the progression of humanity's supercomputer AI and its quest to answer the ultimate question: "Can entropy be reversed?"
+                    The central argument in The Last Question revolves around humanity's growing dependence on technology and science to solve problems.
+                    Throughout the narrative, the AC, a supercomputer computer, provides solutions to various issues but cannot answer the critical question of reversing entropy.
+                    People in each generation instinctively turn to the AC for answers, highlighting their increasing reliance on technology rather than seeking solutions independently.
+                    People have a misconception that computers can solve every question, and if not right now, it's only a matter of time before it is solved.
+                    Asimov shows that we may never receive answers to our most significant questions through science and technology alone.
+                    Humanity might continue waiting for answers that may only arrive when it is too late.
                 </p>
                 <img className='h-1/4 w-1/4 rounded-md mt-6' src={lastQuest} alt='' />
             </div>
