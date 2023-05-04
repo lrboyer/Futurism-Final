@@ -11,7 +11,7 @@ function Rough() {
                     Jon Turney, The Rough Guide To The Future
                 </p>
                 <p>
-                There were a couple of times Turney brought up ideas of AI in The Rough Guide, but I thought the concept of von Neumann probes was the most interesting. 
+                There were a couple of times Turney brought up ideas of AI in The Rough Guide, but I thought the concept of Von Neumann probes was the most interesting. 
                 If AI robots become capable of self-reproduction, we could colonize the universe using robots. 
                 I had never thought of a future where AI robots are capable of landing on a new planet, creating more spaceships, and going to another solar system. 
                 This is a possible future because the biggest problem with space travel is the vast distances between galaxies. 
