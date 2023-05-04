@@ -11,7 +11,7 @@ function Dashboard() {
     <div class='bg-indigo-200 w-full min-h-screen'>
       <NavBar />
       <div class='m-20 text-xl flex flex-col items-center'>
-        <p className='text-3xl m-3'>
+        <p className='text-3xl m-3 font-bold'>
           Our Future with AI
         </p>
         <p>
@@ -36,20 +36,20 @@ function Dashboard() {
           Our society becoming like Wall-E is a genuine possibility, as I think we would see ourselves becoming more mindless and letting AI do everything for us.
         </p>
 
-        <div class='flex flex-col justify-center items-center m-6 w-1/2 p-3 rounded-md bg-gray-700'>
-          <div class='flex flex-row justify-center items-center w-max'>
+        <div class='flex flex-col justify-center items-center m-6 w-2/3 p-3 rounded-md bg-gray-700'>
+          <div class='flex flex-col md:flex-row justify-center items-center bg-gray-700'>
             <img
-              className="m-3"
+              className="m-3 w-1/2 rounded-md"
               src={cat1}
               alt="cat1"
             />
             <img
-              className="m-3"
+              className="m-3 w-1/2 rounded-md"
               src={cat2}
               alt="cat2"
             />
             <img
-              className="m-3"
+              className="m-3 w-1/2 rounded-md"
               src={cat3}
               alt="cat3"
             />

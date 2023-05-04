@@ -4,10 +4,10 @@ import logic from '../images/logic.jpg';
 
 function Logic() {
     return (
-        <div class='bg-fuchsia-200 w-full min-h-screen text-xl'>
+        <div class='bg-red-200 w-full min-h-screen text-xl'>
             <NavBar />
             <div class='m-20 gap-2 flex flex-col min-h-screen items-center'>
-                <h1 className='text-3xl'>
+                <h1 className='text-3xl font-bold'>
                     Murray Leinster, A Logic Named Joe
                 </h1>
                 <p>
@@ -19,7 +19,7 @@ function Logic() {
                 <p>
                     3. I think Brown's greatest fears are a bit dramatic; some of his ideas are entirely possible. The idea that almost all jobs will be taken by robots is very possible because robots and computers will eventually be advanced enough to be better than humans. A similar article written today might discuss the dangers of ChatGPT, neural networks, and self-driving cars taking our jobs and humans being replaced.
                 </p>
-                <img className='h-1/4 w-1/4' src={logic} alt='' />
+                <img className='h-1/4 w-1/4 rounded-md' src={logic} alt='' />
             </div>
 
             <Footer />
