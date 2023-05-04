@@ -7,19 +7,24 @@ function Logic() {
         <div class='bg-red-200 w-full min-h-screen text-xl'>
             <NavBar />
             <div class='m-20 gap-2 flex flex-col min-h-screen items-center'>
-                <h1 className='text-3xl font-bold'>
+                <p className='text-3xl font-bold'>
                     Murray Leinster, A Logic Named Joe
-                </h1>
-                <p>
-                    1. I think that humans can be careless and be too excited about new ideas when making new inventions, mainly because we want to be the first to create something. This eagerness can cause us to be negligent, and we don't fully realize the consequences of what we are bringing into the world. In the story "A Logic Named Joe," I feel that Feinster did foresee the misuse of the internet because he talks about how AI has taken over our lives. The story has parallels to the modern search engine as we use it to answer most of our questions.
                 </p>
                 <p>
-                    2. I think that new technology creates a sense of distrust because we still don't know the long-term impacts of new inventions. Older people who occupy positions of power don't have any experience with new technologies growing up, usually causing them to blame any issues that arise unjustly. The new technologies may disrupt the norm, and older people generally dislike changing their ways. I think this desensitizes us to the dangers of new technology because we are scared of the fears of what may come out of new technology and can't see the dangers that have already ensued.
+                    In "A Logic Named Joe," a technician named Mark discovers that a self-aware computer named Joe can access information beyond its programming.
+                    Mark decides to shut down all the logics to prevent potential danger where all logics go haywire.
+                    The story explores how an AI could accidentally wreak havoc, in large part because humans are thoughtless and selfish in how they use the tool.
+                    I think that humans can be careless and be too excited about new ideas when making new inventions, mainly because we want to be the first to create something.
+                    This eagerness can cause us to be negligent, and we don't fully realize the consequences of what we are bringing into the world.
+                    This reflects how we use new inventions like AI, for example.
+                    We don't know how AI will grow into the future, but we are using it thoughtlessly without thinking of the impacts it will have on our futures.
+                    Will we be able to live it into the future? In "A Logic Named Joe," I feel that Feinster did foresee the misuse of the internet because he talks about how AI has taken over our lives.
+                    The story came out in 1946, and it has parallels to the modern search engine as we use it to answer most of our questions.
+                    Like in the story, we are increasingly relying on technology to solve our daily needs.
+                    If a massive solar flare came and knocked out all of our technology, I don't think many of us could function without our everyday conveniences.
                 </p>
-                <p>
-                    3. I think Brown's greatest fears are a bit dramatic; some of his ideas are entirely possible. The idea that almost all jobs will be taken by robots is very possible because robots and computers will eventually be advanced enough to be better than humans. A similar article written today might discuss the dangers of ChatGPT, neural networks, and self-driving cars taking our jobs and humans being replaced.
-                </p>
-                <img className='h-1/4 w-1/4 rounded-md' src={logic} alt='' />
+
+                <img className='w-1/5 rounded-md mt-6' src={logic} alt='' />
             </div>
 
             <Footer />
